@@ -1,0 +1,26 @@
+<html>
+<head>
+    <font face="Trebuchet" color="white">
+    <h1> Simpsons <h1>
+<script language = "JavaScript">
+    function rollIn(daImage)
+    {
+	   daImage.src="images/roll2.jpg";
+    }
+    function rollOut(daImage)
+    {
+	   daImage.src="images/roll1.jpg";
+    }
+
+    
+    
+</script>
+</head>
+<body bgcolor = "red">
+<font face="Trebuchet" color="white">
+   <a href="index.html"> Index </a>
+<center>
+<br/> <br/> <br/> <br/>   
+<img src="images/roll1.jpg" width = 400 onmouseout="rollOut(this)" onmouseover="rollIn(this)"/>
+</body>
+</html>
